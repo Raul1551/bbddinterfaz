@@ -1,5 +1,5 @@
 // Definición de variables
-const url = 'https://bbddserver-production.up.railway.app//api/usuarios/';
+const url = 'https://bbddserver-production.up.railway.app/api/usuarios/';
 const contenedor = document.querySelector('tbody');
 let resultados = '';
 
