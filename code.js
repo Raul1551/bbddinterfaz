@@ -1,5 +1,6 @@
 // Definición de variables
-const url = 'https://bbddserver-production.up.railway.app/api/usuarios/';
+ const url = 'https://bbddserver-production.up.railway.app/api/usuarios/'; 
+/* const url = 'http://localhost:3000/api/usuarios/'; */
 const contenedor = document.querySelector('tbody');
 let resultados = '';
 
@@ -10,7 +11,7 @@ const apellidos = document.getElementById('apellidos');
 const email = document.getElementById('email');
 const telefono = document.getElementById('telefono');
 const perfil = document.getElementById('perfil');
-const respuestas = document.getElementById('respuestas');
+
 let opcion = '';
 
 
@@ -34,11 +35,24 @@ const mostrar = (usuarios) => {
             <td>${usuario.email}</td>
             <td>${usuario.telefono}</td>
             <td>${usuario.perfil}</td>
-            <td>${usuario.respuestas}</td>
+            <td>${usuario.pregunta1}</td>
+            <td>${usuario.pregunta2}</td>
+            <td>${usuario.pregunta3}</td>
+            <td>${usuario.pregunta4}</td>
+            <td>${usuario.pregunta5}</td>
+            <td>${usuario.pregunta6}</td>
+            <td>${usuario.pregunta7}</td>
+            <td>${usuario.pregunta8}</td>
+            <td>${usuario.pregunta9}</td>
+            <td>${usuario.pregunta10}</td>
+            <td>${usuario.pregunta11}</td>
+            <td>${usuario.pregunta12}</td>
+            <td>${usuario.pregunta13}</td>
+            <td>${usuario.pregunta14}</td>
             
         </tr>
 `
-{/* <td class="text-center"><a class="btnEditar btn btn-primary">Ver más detalles</a></td> */}
+        {/* <td class="text-center"><a class="btnEditar btn btn-primary">Ver más detalles</a></td> */ }
 //<td class="text-center"><a class="btnEditar btn btn-primary">Ver mas detalles</a><a class="btnBorrar btn btn-danger">Borrar</a></td>
     });
     contenedor.innerHTML = resultados;

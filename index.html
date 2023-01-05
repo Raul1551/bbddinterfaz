@@ -19,6 +19,12 @@
             background-color: #f6f7f7;
         }
 
+        .container{
+            display: block;
+            margin: -10px 10px 10px 10px;
+            padding: 20px;
+        }
+
         table thead{
             background-color: #0A4F70;
             color: white;
@@ -28,7 +34,7 @@
 
 <body>
 
-    <div class="container mt-4 shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="container">
         <button type="button" id="btnCrear" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalArticulo">USUARIOS</button>
         <table id="tablaArticulos" class="table mt-2 table-bordered table-striped">
             <thead>
@@ -39,7 +45,20 @@
                     <th>Email</th>
                     <th>Teléfono</th>
                     <th>Perfil</th>
-                    <th>Respuestas del usuario</th>
+                    <th>Pregunta1</th>
+                    <th>Pregunta2</th>
+                    <th>Pregunta3</th>
+                    <th>Pregunta4</th>
+                    <th>Pregunta5</th>
+                    <th>Pregunta6</th>
+                    <th>Pregunta7</th>
+                    <th>Pregunta8</th>
+                    <th>Pregunta9</th>
+                    <th>Pregunta10</th>
+                    <th>Pregunta11</th>
+                    <th>Pregunta12</th>
+                    <th>Pregunta13</th>
+                    <th>Pregunta14</th>
                 </tr>
             </thead>
             <tbody>
@@ -79,10 +98,6 @@
                         <div class="mb-3">
                             <label for="perfil" class="col-form-label">Perfil:</label>
                             <input id="perfil" type="text" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="respuestas" class="col-form-label">Respuestas:</label>
-                            <input id="respuestas" type="text" class="form-control">
                         </div>
                 </div>
                 <div class="modal-footer">
